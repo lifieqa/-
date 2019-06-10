@@ -1,0 +1,46 @@
+{
+  "xiangmuguanli_001":{
+	"basicServicesId": "",
+	"name": "搜索",
+	"basicCategoryId": "",
+	"categoryId": "0000b47bd162473d97de99969cafc444",
+	"costPrice": null,
+	"retailPrice": 3,
+	"durationTime": null,
+	"ordinal": null,
+	"appointment": true,
+	"workDefault": false,
+	"remark": "",
+	"constructionWork": null,
+	"salesCommission": {
+		"id": null,
+		"calculateMethod": "RATIO",
+		"calculateParam": 1
+	},
+	"durationTimeUnit": "MINUTE",
+	"keywords": "SS"
+},
+	"xiangmuguanli_002":{},
+	"xiangmuguanli_003":{
+    "basicServicesId":"",
+    "name":"搜索修改",
+    "basicCategoryId":"",
+    "categoryId":"0000b47bd162473d97de99969cafc444",
+    "costPrice":null,
+    "retailPrice":3,
+    "durationTime":0,
+    "ordinal":0,
+    "appointment":true,
+    "workDefault":false,
+    "remark":"",
+    "constructionWork":null,
+    "salesCommission":{
+        "id":"6b4afe4e19044844b76645485879d20f",
+        "calculateMethod":"RATIO",
+        "calculateParam":1
+    },
+    "durationTimeUnit":"MINUTE",
+    "keywords":"SSXG"
+}
+
+}
