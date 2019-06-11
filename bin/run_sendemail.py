@@ -77,13 +77,18 @@ def getNowtime():
     return time.strftime('%Y-%m-%d %H_%M_%S', time.localtime(time.time()))
 
 
-if __name__ == '__main__':
-    fp = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'report', getNowtime() + 'testReport.html')
-    HTMLTestRunner.HTMLTestRunner(stream=open(fp, 'wb'),
-                                  title='自动化测试报告',
-                                  description='自动化测试报告详细信息').run(getSuite())
+# if __name__ == '__main__':
+#     fp = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'report', getNowtime() + 'testReport.html')
+#     HTMLTestRunner.HTMLTestRunner(stream=open(fp, 'wb'),
+#                                   title='自动化测试报告',
+#                                   description='自动化测试报告详细信息').run(getSuite())
+#
+#     new_file = new_report(reportmulu())
+#     send_mail(new_file)
 
-    new_file = new_report(reportmulu())
-    send_mail(new_file)
+if __name__ == '__main__':
+    suite=getSuite()
+    unittest.TextTestRunner(verbosity=2).run(suite)
+    # print(getSuite())
 
 # print(new_report(reportmulu()))
