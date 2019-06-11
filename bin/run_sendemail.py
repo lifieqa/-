@@ -13,6 +13,8 @@ import HTMLTestRunner
 from email.mime.multipart import MIMEMultipart
 
 
+
+
 # 定义发送邮件
 def send_mail(file_new):
     '''发送邮件'''
@@ -70,8 +72,6 @@ def getSuite():
         pattern='test_*.py',
         top_level_dir=None)
     return suite
-
-
 def getNowtime():
     '''获取当前时间'''
     return time.strftime('%Y-%m-%d %H_%M_%S', time.localtime(time.time()))
