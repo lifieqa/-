@@ -11,6 +11,8 @@ import time
 import os
 import HTMLTestRunner
 from email.mime.multipart import MIMEMultipart
+import sys
+sys.path.append("../..")
 
 
 
